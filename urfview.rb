@@ -1,7 +1,7 @@
 require 'open-uri'
 require 'json'
 
-OUT_PATH = 'phot0.jpg'
+OUT_PATH = 'photo.jpg'
 PHOTOS_JSON_PATH = 'photos.json'
 
 def cie76_difference(color1, color2)
